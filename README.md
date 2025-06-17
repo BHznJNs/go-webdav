@@ -4,6 +4,12 @@
 
 A Go library for [WebDAV], [CalDAV] and [CardDAV].
 
+## Compile to AAR
+
+```bash
+gomobile bind -target=android -androidapi 26 github.com/emersion/go-webdav/webdavandroid
+```
+
 ## License
 
 MIT
